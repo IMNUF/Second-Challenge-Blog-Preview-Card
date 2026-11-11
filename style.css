@@ -1,0 +1,156 @@
+  /* <!-- .attribution { font-size: 0.6875rem; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); } -->  */
+
+* {
+    margin: 0 auto;
+    box-sizing: border-box;
+    font-family: "Figtree", sans-serif;;
+}
+
+body {
+    background-color:  hsl(47, 88%, 63%);
+    height: 100vh;
+    width: 100vw;
+}
+
+.background-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 5%;
+  
+   
+         
+}
+
+.big-wrapper {
+border: hsl(0, 0%, 7%) solid 2px;
+    border-radius: 5%;
+    min-height: 80%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding-top: 5%;
+    gap: 1rem;
+    background-color: hsl(0, 0%, 100%);
+    box-shadow: 8px 8px 0 hsl(0, 0%, 7%);
+}
+
+.image-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%; 
+    max-height: fit-content;  
+    margin-bottom: 5%;
+}
+
+.image-container  img {
+    width: 90%;
+    height: 100%;
+    border-radius: 5%;
+}
+
+.action-btn-and-date {
+ width: 90%;
+  max-height: fit-content; 
+}
+
+.action-btn-and-date a { 
+background-color: hsl(47, 88%, 63%);
+    border: hsl(47, 88%, 63%) solid 5px;
+    color: black;
+    border-radius: 10%;
+    text-align: center;
+    font-weight: 500;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+.action-btn-and-date a:hover { 
+    background-color: hsl(208, 83%, 65%); 
+    border: hsl(208, 83%, 65%) solid 5px;
+    color: white;
+}
+
+.action-btn-and-date p { 
+    margin-top: 5%;
+    font-size: 0.8rem;
+    margin-bottom: 3%;
+}
+
+.heading-and-para {
+    width: 90%;
+    margin-bottom: 5%;
+}
+
+.heading-and-para h1 {
+    font-size: clamp(1.5rem, 5vh, 2rem);
+    margin-bottom: 3%;
+}
+
+.heading-and-para p {
+    font-size: clamp(0.5rem, 1.1rem, 1.2rem);
+    margin-bottom: 3%;
+    font-weight: 400;
+
+}
+
+.avatar-and-name {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center;
+    gap: 10px;
+    width: 90%;
+}
+
+.avatar-and-name img {
+    max-width: 2rem;
+    max-height: 2rem;
+    margin: 0;
+    border-radius: 50%;
+}
+
+.avatar-and-name h4 {
+    font-size: 0.9.5rem;
+    margin: 0;
+}
+
+.attribution {
+    text-align: center;
+
+}
+
+.attribution a {
+    color: inherit;
+    text-decoration: none;
+}
+
+.attribution a:hover {
+    color: hsl(0, 100%, 50%);
+    
+}
+
+.attribution a:focus-visible{
+    color: 2px solid hsl(0, 100%, 50%);
+    outline-offset: 3px;
+}
+
+@media (max-width: 375px) {
+    body {
+    Padding: 1rem;
+}
+
+.background-wrapper {
+    max-width: 100%;
+}
+
+.big-wrapper {
+    min-height: 100vh;
+
+}
+}
