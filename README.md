@@ -12,3 +12,5 @@ A challenge I encountered was adapting the designs to different screen sizes and
 3. How can the feedback and community resources on Frontend Mentor help you improve as a developer? 
 
 Peer reviews and community feedback provide valuable opportunities to gain different perspectives on problem-solving. I view development as a continuous process of solving problems, so seeing how different developers approach the same challenge will enhance my understanding. Additionally, reviewing and providing feedback on other people's work is an effective way to reinforce my own knowledge, and my understanding of key concepts. 
+
+Assignment link: https://imnuf.github.io/Second-Challenge-Blog-Preview-Card/
